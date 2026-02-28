@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOTEL LUGRACE OFFICIAL WEBSITE</title>
+  <meta name="description" content="Webデザイナー たきの自主制作です。架空のホテル「HOTEL LUGRACE」の公式ウェブサイトです。">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/splide-core.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.3.17/dist/lenis.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+  <header class="common-header">
+    <div class="common-header__inner">
+      <button class="header__hbg-btn">
+        <span class="header__hbg-btn-line"></span>
+        <span class="header__hbg-btn-line"></span>
+        <span class="header__hbg-btn-line"></span>
+      </button>
+      <img src="img/logo_header.svg" class="header__logo" alt="HOTEL LUGRACEのロゴ。" width="183" height="86">
+      <nav class="header__nav">
+        <ul class="header__nav_list">
+          <li>
+            <a href="#!" class="header__nav_link">ご宿泊</a>
+          </li>
+          <li>
+            <a href="#!" class="header__nav_link">客室のご案内</a>
+          </li>
+          <li>
+            <a href="#!" class="header__nav_link">レストラン</a>
+          </li>
+          <li>
+            <a href="#!" class="header__nav_link">宴会・会議</a>
+          </li>
+          <li>
+            <a href="#!" class="header__nav_link">アクセス</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#!" class="header__reserve-btn">宿泊のご予約</a>
+    </div>
+  </header>
+  <div class="mv">
+    <picture class="mv__img-wrapper">
+      <source media="(max-width:767px)" srcset="img/img_mv01-sp.avif" width="750" height="1620">
+      <source media="(min-width:768px)" srcset="img/img_mv01-pc.avif" width="2880" height="1620">
+      <img src="img/img_mv01-sp.avif" class="mv__img" alt="" width="750" height="1620">
+    </picture>
+    <div class="mv__inner content-inner">
+      <p class="mv__txt">
+        あのとき、<br class="sp">あの一瞬を、<br>
+        至高のひとときに。
+      </p>
+    </div>
+  </div>
+  <section class="sec--brand">
+    <div class="content-inner">
+      <div class="sec--brand__content js-animate" data-animate="fade-up">
+        <h2 class="sec-ttl">BRAND</h2>
+        <p class="sec--brand__txt">
+          人生において、ホテルで過ごす時間は一瞬。<br>
+          しかし、その一瞬が<br class="sp">記憶に深く刻まれるものでありたい。
+        </p>
+        <p class="sec--brand__txt">
+          いつか人生を振り返ったとき、<br>
+          「あの場所で過ごした時間は、<br>
+          <span class="sec--brand__txt__spacer">何ものにも代えがたいものだった」</span><br>
+          そう思い返すことができるように。
+        </p>
+        <p class="sec--brand__txt">
+          私たちは、至高のひとときをお届けします。
+        </p>
+      </div>
+      <picture class="sec--brand__img-wrapper js-animate" data-animate="curtain">
+        <img src="img/img_brand01.avif" class="sec--brand__img" alt="HOTEL LUGRACEの外観写真。" width="1040" height="1040">
+      </picture>
+    </div>
+  </section>
+  <section class="sec--plans">
+    <div class="content-inner js-animate" data-animate="fade-up">
+      <div class="sec--plans__ttl-wrapper">
+        <h2 class="sec-ttl">PLANS</h2>
+        <a href="#!" class="sec--plans__btn pc">宿泊のご予約</a>
+      </div>
+      <section class="sec--plans__splide splide" aria-label="HOTEL LUGRACE おすすめプランのスライダー">
+        <div class="splide__track">
+          <ul class="sec--plans__list splide__list">
+            <li class="splide__slide">
+              <a href="#!" class="sec--plans__items">
+                <img src="img/img_plans01.avif" class="sec--plans__items__img" alt="スタンダードプラン客室のイメージ写真。" width="464" height="308" loading="lazy">
+                <p class="sec--plans__items__content">
+                  <span class="sec--plans__items__label">至高のひとときを</span>
+                  <span class="sec--plans__items__txt">スタンダードプラン</span>
+                </p>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="#!" class="sec--plans__items">
+                <img src="img/img_plans02.avif" class="sec--plans__items__img" alt="ウィズペットプラン客室のイメージ写真。" width="464" height="308" loading="lazy">
+                <p class="sec--plans__items__content">
+                  <span class="sec--plans__items__label">大切な家族とともに</span>
+                  <span class="sec--plans__items__txt">ウィズペットプラン</span>
+                </p>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="#!" class="sec--plans__items">
+                <img src="img/img_plans03.avif" class="sec--plans__items__img" alt="アニバーサリープラン客室のイメージ写真。" width="464" height="308" loading="lazy">
+                <p class="sec--plans__items__content">
+                  <span class="sec--plans__items__label">特別な日に</span>
+                  <span class="sec--plans__items__txt">アニバーサリープラン</span>
+                </p>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="#!" class="sec--plans__items">
+                <img src="img/img_plans02.avif" class="sec--plans__items__img" alt="ウィズペットプラン客室のイメージ写真。" width="464" height="308" loading="lazy">
+                <p class="sec--plans__items__content">
+                  <span class="sec--plans__items__label">大切な家族とともに</span>
+                  <span class="sec--plans__items__txt">ウィズペットプラン</span>
+                </p>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="#!" class="sec--plans__items">
+                <img src="img/img_plans03.avif" class="sec--plans__items__img" alt="アニバーサリープラン客室のイメージ写真。" width="464" height="308" loading="lazy">
+                <p class="sec--plans__items__content">
+                  <span class="sec--plans__items__label">特別な日に</span>
+                  <span class="sec--plans__items__txt">アニバーサリープラン</span>
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="splide__controls">
+          <div class="splide__arrows"></div>
+          <ul class="splide__pagination"></ul>
+        </div>
+      </section>
+      <a href="#!" class="sec--plans__btn sp">宿泊のご予約</a>
+    </div>
+  </section>
+  <section class="sec--rooms">
+    <img src="img/logo_rooms.svg" class="sec--rooms__deco" alt="" width="40" height="40" loading="lazy">
+    <div class="content-inner">
+      <h2 class="sec-ttl sp">ROOMS</h2>
+      <section class="sec--rooms__splide splide js-animate" aria-label="HOTEL LUGRACE 客室写真のスライダー" data-animate="curtain">
+        <div class="splide__track">
+          <ul class="sec--rooms__gallery splide__list">
+            <li class="splide__slide">
+              <img src="img/img_rooms01.avif" class="sec--rooms__gallery__img" alt="客室のイメージ写真。" width="960" height="720" loading="lazy">
+            </li>
+            <li class="splide__slide">
+              <img src="img/img_rooms02.avif" class="sec--rooms__gallery__img" alt="客室のイメージ写真。" width="960" height="720" loading="lazy">
+            </li>
+            <li class="splide__slide">
+              <img src="img/img_rooms03.avif" class="sec--rooms__gallery__img" alt="客室のイメージ写真。" width="960" height="720" loading="lazy">
+            </li>
+          </ul>
+        </div>
+        <ul class="splide__pagination"></ul>
+      </section>
+      <div class="sec--rooms__content js-animate" data-animate="fade-up">
+        <h2 class="sec-ttl pc">ROOMS</h2>
+        <p class="sec--rooms__txt">至高のひとときを心ゆくまで。</p>
+        <p class="sec--rooms__txt">
+          身体を包み込むラグジュアリーベッド、<br>
+          お部屋を装う上質なインテリア、<br>
+          心をときほぐす暖かみのある照明。
+        </p>
+        <p class="sec--rooms__txt">
+          ただ眠るだけではない、<br>
+          あなたに寄り添うゆとりある空間。
+        </p>
+        <p class="sec--rooms__txt">ビジネスや旅行でのご宿泊はもちろん、<br class="sp">特別な日や自分へのご褒美に。</p>
+        <p class="sec--rooms__txt">思い思いのひとときをお過ごしください。</p>
+        <ul class="sec--rooms__links">
+          <li>
+            <a href="#!" class="sec--rooms__link sec-link">客室一覧</a>
+          </li>
+          <li>
+            <a href="#!" class="sec--rooms__link sec-link">設備とルームサービス</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="sec--restaurant sec--facility">
+    <div class="content-inner sec--facility__inner">
+      <picture class="sec--restaurant__img-wrapper sec--facility__img-wrapper js-animate" data-animate="curtain">
+        <img src="img/img_restaurant01.avif" class="sec--restaurant__img sec--facility__img" alt="レストランのイメージ写真。" width="960" height="720" loading="lazy">
+      </picture>
+      <div class="sec--restaurant__content sec--facility__content js-animate" data-animate="fade-up">
+        <h2 class="sec-ttl">RESTAURANT</h2>
+        <p class="sec--restaurant__txt sec--facility__txt">心まで満たす、至高のひと皿を。</p>
+        <p class="sec--restaurant__txt sec--facility__txt">
+          一流のシェフが、<br>
+          お客様おひとりおひとりに寄り添い、<br>
+          心を込めたひと皿を仕立てます。
+        </p>
+        <p class="sec--restaurant__txt sec--facility__txt">
+          厳かな和食から<br>
+          華やかな洋食、多様な中華まで、<br>
+          あらゆるお客様を魅了する、美食の数々。
+        </p>
+        <p class="sec--restaurant__txt sec--facility__txt ">非日常に彩を添える、<br>特別なお食事をご堪能ください。</p>
+        <a href="#!" class="sec--restaurant__link sec--facility__link sec-link">詳細はこちら</a>
+      </div>
+    </div>
+  </section>
+  <section class="sec--hall sec--facility">
+    <div class="content-inner sec--facility__inner">
+      <picture class="sec--hall__img-wrapper sec--facility__img-wrapper js-animate" data-animate="curtain">
+        <img src="img/img_hall01.avif" class="sec--hall__img sec--facility__img" alt="ホールのイメージ写真。" width="960" height="720" loading="lazy">
+      </picture>
+      <div class="sec--hall__content sec--facility__content js-animate" data-animate="fade-up">
+        <h2 class="sec-ttl">HALL</h2>
+        <p class="sec--hall__txt sec--facility__txt">大切な集いを、特別なひとときに。</p>
+        <p class="sec--hall__txt sec--facility__txt">
+          ご家族・ご友人とのパーティーや、<br>
+          お勤め先の式典、セミナー、多種多様なイベントまで。
+        </p>
+        <p class="sec--hall__txt sec--facility__txt">
+          HOTEL LUGRACEならではの、<br>
+          格式ある空間とサービスで、<br>
+          お客様の思いをカタチにします。
+        </p>
+        <p class="sec--hall__txt sec--facility__txt">いつもと違う、特別な場所で。<br></p>
+        <p class="sec--hall__txt sec--facility__txt">記憶に刻まれるひとときをお過ごしください。</p>
+        <a href="#!" class="sec--hall__link sec--facility__link sec-link">詳細はこちら</a>
+      </div>
+    </div>
+  </section>
+  <section class="sec--members">
+    <img src="img/logo_members.svg" class="sec--members__deco" alt="" width="40" height="40" loading="lazy">
+    <div class="content-inner">
+      <h2 class="sec-ttl sp js-animate" data-animate="fade-up">
+        LUGRACE<br>
+        MEMBERS
+      </h2>
+      <picture class="sec--members__img-wrapper js-animate" data-animate="curtain">
+        <source media="(max-width:767px)" srcset="img/img_members01-sp.avif" width="750" height="562">
+        <source media="(min-width:768px)" srcset="img/img_members01-pc.avif" width="960" height="1088">
+        <img src="img/img_members01-sp.avif" class="sec--members__img" alt="LUGRACE MEMBERS限定ラウンジのイメージ写真。" width="750" height="562" loading="lazy">
+      </picture>
+      <div class="sec--members__content js-animate" data-animate="fade-up">
+        <h2 class="sec-ttl pc">LUGRACE MEMBERS</h2>
+        <p class="sec--members__txt">至高のひとときを、ふたときに。</p>
+        <p class="sec--members__txt">
+          HOTEL LUGRACEを<br>
+          ご愛顧いただいているお客様へ。<br>
+        </p>
+        <p class="sec--members__txt">
+          街の喧騒を忘れられる、会員様専用ラウンジ。<br>
+          ご利用ごとに積もるマイルに応じた、<br class="sp">多彩な特典。
+        </p>
+        <p class="sec--members__txt">
+          そして、大切な日には<br>
+          HOTEL LUGRACEから、ささやかな贈り物を。
+        </p>
+        <a href="#!" class="sec--members__link sec-link">詳細はこちら</a>
+      </div>
+    </div>
+  </section>
+  <section class="sec--access">
+    <div class="content-inner js-animate" data-animate="fade-up">
+      <div class="sec--access__content">
+        <h2 class="sec-ttl">ACCESS</h2>
+        <p class="sec--access__txt">〒000-0000　東京都××区××町0-0-0</p>
+        <p class="sec--access__txt">JR××線「××駅」より徒歩×分</p>
+        <a href="#!" class="sec--access__link sec-link">詳細はこちら</a>
+      </div>
+      <iframe class="sec--access__map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d53520.79561887635!2d139.86047608283016!3d35.59269287453484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1771662542135!5m2!1sja!2sjp" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <footer class="common-footer">
+    <div class="common-footer__inner content-inner">
+      <img src="img/logo_footer.svg" class="common-footer__logo" alt="HOTEL LUGRACEのロゴ。" width="184" height="92" loading="lazy">
+      <div class="common-footer__content">
+        <nav class="common-footer__nav">
+          <ul class="common-footer__nav__list">
+            <li>
+              <a href="#!" class="common-footer__nav__link">企業情報</a>
+            </li>
+            <li>
+              <a href="#!" class="common-footer__nav__link">プレスリリース</a>
+            </li>
+            <li>
+              <a href="#!" class="common-footer__nav__link">コンセプト</a>
+            </li>
+            <li>
+              <a href="#!" class="common-footer__nav__link">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="common-footer__copyright">&copy;2026 HOTEL LUGRACE</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/SplitText.min.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <script src="js/splide.min.js"></script>
+  <script src="js/lenis.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
