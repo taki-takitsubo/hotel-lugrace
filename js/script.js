@@ -106,3 +106,11 @@
     animateItems.forEach(items => observer.observe(items))
   }
 }
+{
+  // hbg
+  const hbgBtn = document.querySelector('.header__hbg-btn');
+  hbgBtn.addEventListener('click', () => {
+    document.querySelector('.header__nav').classList.toggle('open');
+    hbgBtn.classList.toggle('open');
+  });
+}
